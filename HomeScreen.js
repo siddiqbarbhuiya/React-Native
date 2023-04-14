@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   Linking,
   SafeAreaView,
-  ImageBackground
+  ImageBackground,
 } from "react-native";
 
 const HomeScreen = ({ navigation }) => {
@@ -18,13 +18,14 @@ const HomeScreen = ({ navigation }) => {
 
   const option2 = () => {
     navigation.navigate("Browser", {
-      url: "https://warm-manatee-5de0df.netlify.app/",
+      url: "https://dev.svaas.com/app/doclite/",
     });
   };
 
   const option3 = () => {
     navigation.navigate("Browser", {
-      url: "https://myportfolio-pwa.netlify.app/",
+      // url: "https://siddiqbarbhuiya.netlify.app/",\
+      url: "https://dev.svaas.com/app/doclite/homescreen",
     });
   };
 
